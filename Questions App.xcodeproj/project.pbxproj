@@ -13,6 +13,10 @@
 		5E0D57AD28FC61FB002FBB91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D57AB28FC61FB002FBB91 /* Main.storyboard */; };
 		5E0D57AF28FC61FC002FBB91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D57AE28FC61FC002FBB91 /* Assets.xcassets */; };
 		5E0D57B228FC61FC002FBB91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D57B028FC61FC002FBB91 /* LaunchScreen.storyboard */; };
+		5E0D57BA28FC662F002FBB91 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D57B928FC662F002FBB91 /* Question.swift */; };
+		5E0D57BC28FC66D0002FBB91 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D57BB28FC66D0002FBB91 /* QuestionsModel.swift */; };
+		5E0D57BE28FC67BF002FBB91 /* questionsTest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E0D57BD28FC67BF002FBB91 /* questionsTest.json */; };
+		5E0D57C02900B6DD002FBB91 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0D57BF2900B6DD002FBB91 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5E0D57AE28FC61FC002FBB91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E0D57B128FC61FC002FBB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E0D57B328FC61FC002FBB91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E0D57B928FC662F002FBB91 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		5E0D57BB28FC66D0002FBB91 /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		5E0D57BD28FC67BF002FBB91 /* questionsTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questionsTest.json; sourceTree = "<group>"; };
+		5E0D57BF2900B6DD002FBB91 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				5E0D57A528FC61FB002FBB91 /* AppDelegate.swift */,
 				5E0D57A728FC61FB002FBB91 /* SceneDelegate.swift */,
 				5E0D57A928FC61FB002FBB91 /* ViewController.swift */,
+				5E0D57BF2900B6DD002FBB91 /* ResultViewController.swift */,
 				5E0D57AB28FC61FB002FBB91 /* Main.storyboard */,
 				5E0D57AE28FC61FC002FBB91 /* Assets.xcassets */,
 				5E0D57B028FC61FC002FBB91 /* LaunchScreen.storyboard */,
 				5E0D57B328FC61FC002FBB91 /* Info.plist */,
+				5E0D57B928FC662F002FBB91 /* Question.swift */,
+				5E0D57BB28FC66D0002FBB91 /* QuestionsModel.swift */,
+				5E0D57BD28FC67BF002FBB91 /* questionsTest.json */,
 			);
 			path = "Questions App";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0D57B228FC61FC002FBB91 /* LaunchScreen.storyboard in Resources */,
+				5E0D57BE28FC67BF002FBB91 /* questionsTest.json in Resources */,
 				5E0D57AF28FC61FC002FBB91 /* Assets.xcassets in Resources */,
 				5E0D57AD28FC61FB002FBB91 /* Main.storyboard in Resources */,
 			);
@@ -139,8 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E0D57AA28FC61FB002FBB91 /* ViewController.swift in Sources */,
+				5E0D57BC28FC66D0002FBB91 /* QuestionsModel.swift in Sources */,
+				5E0D57BA28FC662F002FBB91 /* Question.swift in Sources */,
 				5E0D57A628FC61FB002FBB91 /* AppDelegate.swift in Sources */,
 				5E0D57A828FC61FB002FBB91 /* SceneDelegate.swift in Sources */,
+				5E0D57C02900B6DD002FBB91 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

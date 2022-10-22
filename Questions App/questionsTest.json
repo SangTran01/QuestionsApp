@@ -1,0 +1,14 @@
+[
+  {
+    "question": "How are you?",
+    "answers": ["test 123","asd","good"],
+    "correctAnswerIndex": 2,
+    "feedback": "Feedback 1"
+  },
+  {
+    "question": "1 + 1?",
+    "answers": ["1","2","3"],
+    "correctAnswerIndex": 1,
+    "feedback": "Feedback 2"
+  }
+]
